@@ -1,3 +1,4 @@
+//teste para o git
 package numerostriangulares;
 import java.util.Scanner;
 public class NumerosTriangulares {
