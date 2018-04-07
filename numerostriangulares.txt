@@ -1,0 +1,19 @@
+package numerostriangulares;
+import java.util.Scanner;
+public class NumerosTriangulares {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num, x, y, z;
+        x=1;
+        y=1;
+        System.out.println("Digite o numero para calcular seu triangular: ");
+        num = input.nextInt();
+        for(int i = 1; i<=num; i++){
+            System.out.println(x);
+            y = y + 1;
+            x = x + y;
+        }
+    }
+    
+}
